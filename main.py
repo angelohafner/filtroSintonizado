@@ -6,6 +6,7 @@ import json
 import os
 import io
 from matplotlib.ticker import EngFormatter
+import chardet
 
 # Arquivo de parâmetros padrão para download
 PARAMETERS_FILE = "parameters.txt"
